@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MyFinance">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="MyFinanceWeb.war" deploy-path="/" handle="module:/resource/MyFinanceWeb/MyFinanceWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MyFinanceClient.jar" deploy-path="/" handle="module:/resource/MyFinanceClient/MyFinanceClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MyFinanceService.jar" deploy-path="/" handle="module:/resource/MyFinanceService/MyFinanceService">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
